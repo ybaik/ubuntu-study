@@ -11,3 +11,11 @@ port 22 주석제거
 $sudo apt install openssh-server
 $service ssh restart
 ```
+
+## MOUNT
+### Path 연결
+```
+$sudo apt install cifs-utils
+$mkdir {~/data(path-to-mount)}
+$sudo mount -t cifs {target-path} {path-to-mount} -o username={username},domain={domain}, password={password}
+```
