@@ -1,3 +1,17 @@
+## SAMBA 설정
+### SAMBA server install
+```
+$sudo apt install samba
+```
+### SAMBA config
+```
+sudo vi /etc/samba/smb.conf
+```
+### SAMBA restart
+```
+sudo service smbd restart
+```
+
 ## SSH
 
 ### 포트열기
