@@ -1,9 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
-</script>
-
-$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $
-
 ## SAMBA 설정
 ### SAMBA server install
 ```
